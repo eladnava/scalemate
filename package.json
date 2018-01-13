@@ -1,0 +1,26 @@
+{
+  "name": "scalemate",
+  "version": "1.0.0",
+  "description": "Scales your application servers by publishing custom CloudWatch metrics which are not available by default.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eladnava/scalemate.git"
+  },
+  "bin": {
+    "scalemate": "./index.js"
+  },
+  "author": "Elad Nava",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eladnava/scalemate/issues"
+  },
+  "homepage": "https://github.com/eladnava/scalemate#readme",
+  "dependencies": {
+    "aws-sdk": "^2.181.0",
+    "co": "^4.6.0",
+    "commander": "^2.9.0",
+    "npmlog": "^4.0.2",
+    "sockstat": "^1.0.0"
+  }
+}
