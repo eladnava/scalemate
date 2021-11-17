@@ -79,13 +79,13 @@ You can now configure CloudWatch alarms to scale your EC2 instances up or down b
 Leave the tool running on a remote server by executing the following command:
 
 ```bash
-scalemate > /tmp/scalemate.log &
+scalemate > ~/scalemate.log &
 ```
 
 To start Scalemate automatically after system reboots, add the following to your user's `crontab`:
 
 ```
-@reboot scalemate -c /path/to/config.js > /tmp/scalemate.log &
+@reboot scalemate -c /path/to/config.js > ~/scalemate.log &
 ```
 
 ## License
