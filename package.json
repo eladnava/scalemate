@@ -1,6 +1,6 @@
 {
   "name": "scalemate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scales your application servers by publishing custom CloudWatch metrics which are not available by default.",
   "main": "index.js",
   "repository": {
