@@ -20,8 +20,6 @@ module.exports = {
             name: 'Memory Available'
         }
     },
-    // Metric interval (in seconds)
-    interval: 60,
     // CloudWatch namespace to associate metrics with
     namespace: 'MyApp',
     // AWS IAM user with CloudWatch read/write access
