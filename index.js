@@ -2,11 +2,12 @@
 var path = require('path');
 var log = require('npmlog');
 var program = require('commander');
+var package = require('./package.json');
 var Scalemate = require('./lib/scalemate');
 
 // Define CLI arguments and options
 program
-    .version('1.0.0')
+    .version(package.version)
     .option('-c, --config <path>', 'provide a custom path to the scalemate config file')
     .parse(process.argv);
 
